@@ -13,6 +13,7 @@
 		3B81CF262ADAE70700222169 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF252ADAE70700222169 /* Preview Assets.xcassets */; };
 		3B81CF282ADAE70700222169 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF272ADAE70700222169 /* Persistence.swift */; };
 		3B81CF2B2ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF292ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodeld */; };
+		3B81CF372ADAE92C00222169 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF362ADAE92C00222169 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		3B81CF252ADAE70700222169 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B81CF272ADAE70700222169 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3B81CF2A2ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinchApp_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		3B81CF352ADAE90000222169 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B81CF362ADAE92C00222169 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,7 @@
 		3B81CF122ADAE70500222169 = {
 			isa = PBXGroup;
 			children = (
+				3B81CF352ADAE90000222169 /* README.md */,
 				3B81CF1D2ADAE70500222169 /* PinchApp_SwiftUI */,
 				3B81CF1C2ADAE70500222169 /* Products */,
 			);
@@ -55,12 +59,16 @@
 		3B81CF1D2ADAE70500222169 /* PinchApp_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3B81CF342ADAE8D700222169 /* Extension */,
+				3B81CF332ADAE8CF00222169 /* View */,
+				3B81CF312ADAE8A700222169 /* Model */,
 				3B81CF1E2ADAE70500222169 /* PinchApp_SwiftUIApp.swift */,
 				3B81CF202ADAE70500222169 /* ContentView.swift */,
 				3B81CF222ADAE70700222169 /* Assets.xcassets */,
 				3B81CF272ADAE70700222169 /* Persistence.swift */,
 				3B81CF292ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodeld */,
 				3B81CF242ADAE70700222169 /* Preview Content */,
+				3B81CF362ADAE92C00222169 /* Localizable.strings */,
 			);
 			path = PinchApp_SwiftUI;
 			sourceTree = "<group>";
@@ -71,6 +79,27 @@
 				3B81CF252ADAE70700222169 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B81CF312ADAE8A700222169 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B81CF332ADAE8CF00222169 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B81CF342ADAE8D700222169 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B81CF262ADAE70700222169 /* Preview Assets.xcassets in Resources */,
+				3B81CF372ADAE92C00222169 /* Localizable.strings in Resources */,
 				3B81CF232ADAE70700222169 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
