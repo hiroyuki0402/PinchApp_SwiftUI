@@ -1,0 +1,2 @@
+#  PinchApp_SwiftUIApp
+
