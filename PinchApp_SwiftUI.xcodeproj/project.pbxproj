@@ -14,6 +14,11 @@
 		3B81CF282ADAE70700222169 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF272ADAE70700222169 /* Persistence.swift */; };
 		3B81CF2B2ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF292ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodeld */; };
 		3B81CF372ADAE92C00222169 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF362ADAE92C00222169 /* Localizable.strings */; };
+		3B926DCD2ADBA6CD0089C5A4 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B926DCC2ADBA6CD0089C5A4 /* CustomImage.swift */; };
+		3B926DCF2ADBB43A0089C5A4 /* View-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B926DCE2ADBB43A0089C5A4 /* View-Extension.swift */; };
+		3B926DD12ADBC4FE0089C5A4 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B926DD02ADBC4FE0089C5A4 /* InfoPanelView.swift */; };
+		3B926DD32ADBE9C10089C5A4 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B926DD22ADBE9C10089C5A4 /* ControlImageView.swift */; };
+		3B926DD52ADBF78B0089C5A4 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B926DD42ADBF78B0089C5A4 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		3B81CF2A2ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinchApp_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		3B81CF352ADAE90000222169 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B81CF362ADAE92C00222169 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3B926DCC2ADBA6CD0089C5A4 /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
+		3B926DCE2ADBB43A0089C5A4 /* View-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-Extension.swift"; sourceTree = "<group>"; };
+		3B926DD02ADBC4FE0089C5A4 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		3B926DD22ADBE9C10089C5A4 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		3B926DD42ADBF78B0089C5A4 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		3B81CF312ADAE8A700222169 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B926DD42ADBF78B0089C5A4 /* PageData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +102,9 @@
 		3B81CF332ADAE8CF00222169 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B926DCC2ADBA6CD0089C5A4 /* CustomImage.swift */,
+				3B926DD02ADBC4FE0089C5A4 /* InfoPanelView.swift */,
+				3B926DD22ADBE9C10089C5A4 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +112,7 @@
 		3B81CF342ADAE8D700222169 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3B926DCE2ADBB43A0089C5A4 /* View-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -173,7 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B926DD32ADBE9C10089C5A4 /* ControlImageView.swift in Sources */,
+				3B926DD52ADBF78B0089C5A4 /* PageData.swift in Sources */,
 				3B81CF282ADAE70700222169 /* Persistence.swift in Sources */,
+				3B926DCD2ADBA6CD0089C5A4 /* CustomImage.swift in Sources */,
+				3B926DCF2ADBB43A0089C5A4 /* View-Extension.swift in Sources */,
+				3B926DD12ADBC4FE0089C5A4 /* InfoPanelView.swift in Sources */,
 				3B81CF212ADAE70500222169 /* ContentView.swift in Sources */,
 				3B81CF2B2ADAE70700222169 /* PinchApp_SwiftUI.xcdatamodeld in Sources */,
 				3B81CF1F2ADAE70500222169 /* PinchApp_SwiftUIApp.swift in Sources */,
